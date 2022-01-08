@@ -23,7 +23,7 @@ html {
   border: 1px solid black;
   /* border-radius: 0.25rem; */
   text-align: right;
-  font-size: 1.5rem; /* 24px */
+  font-size: 1.4rem; /* 22.4px */
 }
 
 .button-wrapper {
@@ -41,4 +41,11 @@ html {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
 }
