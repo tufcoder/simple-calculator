@@ -27,7 +27,7 @@ Por exemplo:
 
 ## O que ainda quero fazer
 
-[] Criar opções para personalizar o estilo da calculadora.
+[ ] Criar opções para personalizar o estilo da calculadora.
 
 ### Log
 
