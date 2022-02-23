@@ -1,23 +1,23 @@
 # SIMPLE CALCULATOR
 
-Comecei esse projeto durante uma live na Twitch, bem básico, mas me ajudou a relembrar e me atualizar de algumas coisas.
+Comecei esse projeto durante uma live na [Twitch](https://www.twitch.tv/videos/1307616003), bem básico, mas me ajudou a relembrar e me atualizar de algumas coisas.
 Por exemplo:
 - o uso de `Function()` no lugar de `eval()`
 - o uso do atributo `defer` na tag <script>, assim não precisa usar `window.onload = function()..`
 
 ## O que foi feito
 
-[x] Projeto iniciado em live na Twitch;
+[X] Projeto iniciado em live na Twitch;
 
-[x] Adicionado estrutura no HTML;
+[X] Adicionado estrutura no HTML;
 
-[x] Adicionado estilos da calculadora;
+[X] Adicionado estilos da calculadora;
 
-[x] Adicionado funcionalidades básicas;
+[X] Adicionado funcionalidades básicas;
 
 ## O que falta fazer
 
-[x] Truncar a expressão para não passar o tamanho da tela.
+[X] Truncar a expressão para não passar o tamanho da tela.
 
 [ ] Operador %.
 
