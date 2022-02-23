@@ -9,7 +9,7 @@
 
 ## O que falta fazer
 
-[ ] Truncar a expressão para não passar o tamanho da tela.
+[x] Truncar a expressão para não passar o tamanho da tela.
 [ ] Operador %.
 [ ] Operador . precisa aparecer somente 1x na tela.
 
@@ -21,3 +21,4 @@
 
 - 07/01/2022: início do projeto
 - 08/01/2022: continuando funcionalidades
+- 23/02/2022: adicionando repositório no github
