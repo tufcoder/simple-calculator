@@ -5,6 +5,10 @@ Por exemplo:
 - o uso de `Function()` no lugar de `eval()`
 - o uso do atributo `defer` na tag <script>, assim não precisa usar `window.onload = function()..`
 
+## Link para versão live
+
+https://tufcode-simple-calculator.netlify.app/
+
 ## O que foi feito
 
 [X] Projeto iniciado em live na Twitch;
