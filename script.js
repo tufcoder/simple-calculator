@@ -10,12 +10,12 @@ function clickButton() {
   const input = this.innerHTML;
   const expression = screen.innerHTML;
   
-  if(input === "C") return resetScreen();
-  else if(input === "&lt;=") return eraseInput(expression);
-  else if(input === "+/-") return plusOrMinus(expression);
-  else if(input === "=") return calculator(expression);
+  if (input === "C") return resetScreen();
+  else if (input === "&lt;=") return eraseInput(expression);
+  else if (input === "+/-") return plusOrMinus(expression);
+  else if (input === "=") return calculator(expression);
 
-  if(isScreenFull()) return;
+  if (isScreenFull()) return;
 
   screen.innerHTML += input;
 }
@@ -25,7 +25,7 @@ function resetScreen() {
 }
 
 function isScreenFull() {
-  if(screen.innerHTML.length >= SCREEN_LENGTH) return true;
+  if (screen.innerHTML.length >= SCREEN_LENGTH) return true;
   
   return false;
 }
@@ -39,7 +39,7 @@ function plusOrMinus(expression) {
 }
 
 function calculator(expression) {
-  if(expression !== "") {
+  if (expression !== "") {
     const result = Function('"use strict"; return (' + expression + ')')();
     screen.innerHTML = sliceResult(result);
   }
