@@ -6,7 +6,8 @@ buttons.forEach(button => button.addEventListener('click', clickButton));
 
 resetScreen();
 
-function clickButton() {
+function clickButton()
+{
   const input = this.innerHTML;
   const expression = screen.innerHTML;
   
@@ -20,31 +21,38 @@ function clickButton() {
   screen.innerHTML += input;
 }
 
-function resetScreen() {
+function resetScreen()
+{
   screen.innerHTML = "";
 }
 
-function isScreenFull() {
+function isScreenFull()
+{
   if (screen.innerHTML.length >= SCREEN_LENGTH) return true;
   
   return false;
 }
 
-function eraseInput(value) {
+function eraseInput(value)
+{
   screen.innerHTML = value.slice(0,-1);
 }
 
-function plusOrMinus(expression) {
+function plusOrMinus(expression)
+{
   screen.innerHTML = parseFloat(expression)*-1;
 }
 
-function calculator(expression) {
-  if (expression !== "") {
+function calculator(expression)
+{
+  if (expression !== "")
+  {
     const result = Function('"use strict"; return (' + expression + ')')();
     screen.innerHTML = sliceResult(result);
   }
 }
 
-function sliceResult(result) {
+function sliceResult(result)
+{
   return result.toString().length >= SCREEN_LENGTH ? result.toString().slice(0,12) : result;
 }
